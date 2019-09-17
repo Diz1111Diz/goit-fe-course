@@ -85,14 +85,16 @@ h2 {
     margin-bottom: 32px;
     
 }
-
-.bold-line {
+h2::after{
+    display: block;
     width: 164px;
     height: 7px;
+    content: '';
     background-color: #1abc9c;
     margin: 0 auto;
     margin-bottom: 92px;
 }
+
 
 .featured-products-list {
     margin: 0 auto;
@@ -186,7 +188,9 @@ font-size: 18px;
 font-weight: 600;
 line-height: 26px;
 }
-.green-line {
+.text-h::after {
+    display: block;
+    content: '';
     width: 136px;
     height: 3px;
     background-color: #4ec6ab;
