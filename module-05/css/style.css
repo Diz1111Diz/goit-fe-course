@@ -8,6 +8,7 @@
 
 .relative {
     position: relative;
+    display: block;
 }
 
 .clearfix::after {
