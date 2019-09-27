@@ -16,17 +16,16 @@
     content: '';
     clear: both;
 }
-
 .container {
+   
     width: 1110px;
     margin: 0 auto;
+    
 }
 
 header {
     padding-top: 38px;
-    padding-bottom: 32px;
-    width: 1110px;
-    margin: 0 auto;
+    padding-bottom: 32px;   
 }
 
 .site-logo {
@@ -37,37 +36,28 @@ header {
     text-decoration: none;
     font-size: 30px;
     font-weight: 300;
-   
-
 }
-
 .site-logo:first-letter {
     color: #1abc9c;
     font-weight: 400;
-
 }
 
-.menu {
+.menu-list {
     float: right;
     padding-top: 10px;
     width: 467px;
-    
-
+     
 }
-
-.menu-list li {
+.menu-list-item{
     float: left;
     list-style: none;
-
+    text-transform: uppercase;    
 }
-
-.menu-list li:not(:last-child) {
+.menu-list-item:not(:last-child){
     margin-right: 25px;
 }
-
 .menu-list-item a {
     display: block;
-    text-transform: uppercase;
     text-decoration: none;
     color: #0f0101;
     font-family: "Open Sans";
@@ -81,17 +71,23 @@ header {
     color: #1abc9c;
 }
 
-.background-image{
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-
+.slider{
+    min-height: 600px; 
+    background-image: url(/img/slide4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+.slider-button{
+    top:225px;
+    height: 120px;
+    
+    
+}
+.slider-button ul{
+    list-style: none;
 }
 
-
 .slider-cyrl {
-    
-    top: 33%;
     position: absolute;
     border: none;
     display: block;
@@ -100,7 +96,6 @@ header {
     opacity: 0.65;
     background-color: #1abc9c;
     cursor: pointer;
-
 }
 .slider-cyrl:hover {
     background-color: #1abc9c;
@@ -110,33 +105,28 @@ header {
 .slider-cyrl::before{
     content: '';
     display: block;
-    height: 38px;
+    height: 40px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .slider-cyrl-prev {
-    left: 0;
-   
+    left: 0;   
 }
 .slider-cyrl-prev::before{
     background-image: url(../img/icon/prev.png);
 }
 
 .slider-cyrl-next {
-    right: 0;
-    
+    right: 0;    
 }
 .slider-cyrl-next::before{
     background-image: url(../img/icon/next.png);
 }
 
-
 .container-text-h-p {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
-    top: 30%;
     transform: translateX(-50%);
     font-size: 24px;
     font-weight: 300;
@@ -145,14 +135,13 @@ header {
 }
 
 .slider-h2 {
-    
+   
     color: #ffffff;
     font-family: "Roboto";
     font-size: 60px;
     font-weight: 900;
     letter-spacing: -1.2px;
     line-height: 82px;
-
 }
 
 .slider-p {
@@ -165,7 +154,6 @@ header {
 
 }
 
-
 .new-collection {
     text-align: center;
     color: #515151;
@@ -174,10 +162,8 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 92px;
-    padding-top: 101px;
-    
+    padding-top: 101px;    
 }
-
 .new-collection::after {
     display: block;
     content: '';
@@ -190,13 +176,7 @@ header {
 
 .featured-products {
     background-color: #e9f0fd;
-
-}
-
-.featured-products-list {
     font-size: 0;
-   
-    
 }
 
 .featured-products-list li{
@@ -294,14 +274,9 @@ border: none;
 
 }
 
-.buttom-basket:hover {
-    opacity: 1;
-    border: 1px solid #1abc9c;
-    background-color: #1abc9c;
-
-}
 
 .buttom-basket {
+    display: inline-block;
     position: absolute;
     left: 0;
     top: 57px;
@@ -312,10 +287,11 @@ border: none;
     background: none;
 }
 
-.buttom-basket img {
-    position: absolute;
-    left: 13px;
-    top: 11px;
+.buttom-basket:hover {
+    opacity: 1;
+    border: 1px solid #1abc9c;
+    background-color: #1abc9c;
+
 }
 
 .text-card {
@@ -331,10 +307,29 @@ border: none;
 
 }
 
+.heart{
+    background-image: url(/img/icon/heart.png);
+}
+
+.arrows{
+    background-image: url(/img/icon/arrows.png);
+}
+
+.time{
+    background-image: url(/img/icon/time.png);
+}
+
+.basket{
+    background-image: url(/img/icon/1.png);
+    background-repeat: no-repeat;
+    background-position-y:  11px;
+    background-position-x: 12px;
+    
+}
+
 footer {
     height: 88px;
     background-color: #323232;
-
     text-align: center;
     padding-top: 38px;
 
