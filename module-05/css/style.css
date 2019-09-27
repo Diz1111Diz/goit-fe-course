@@ -73,7 +73,7 @@ header {
 
 .slider{
     min-height: 600px; 
-    background-image: url(/img/slide4.jpg);
+    background-image: url(../img/slide4.jpg);
     background-position: center;
     background-repeat: no-repeat;   
 }
@@ -308,19 +308,19 @@ border: none;
 }
 
 .heart{
-    background-image: url(/img/icon/heart.png);
+    background-image: url(../img/icon/heart.png);
 }
 
 .arrows{
-    background-image: url(/img/icon/arrows.png);
+    background-image: url(../img/icon/arrows.png);
 }
 
 .time{
-    background-image: url(/img/icon/time.png);
+    background-image: url(../img/icon/time.png);
 }
 
 .basket{
-    background-image: url(/img/icon/1.png);
+    background-image: url(../img/icon/1.png);
     background-repeat: no-repeat;
     background-position-y:  11px;
     background-position-x: 12px;
