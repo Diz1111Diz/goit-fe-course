@@ -5,6 +5,11 @@
     margin: 0;
     padding: 0;
 }
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 .relative {
     position: relative;
@@ -25,7 +30,8 @@
 
 header {
     padding-top: 38px;
-    padding-bottom: 32px;   
+    padding-bottom: 32px;  
+   
 }
 
 .site-logo {
@@ -75,7 +81,8 @@ header {
     min-height: 600px; 
     background-image: url(../img/slide4.jpg);
     background-position: center;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+    background-size: cover;   
 }
 .slider-button{
     top:225px;
@@ -171,7 +178,7 @@ header {
     width: 164px;
     height: 7px;
     background-color: #1abc9c;
-    margin-top: 32px;
+    /* margin-top: 32px; */
 }
 
 .featured-products {
