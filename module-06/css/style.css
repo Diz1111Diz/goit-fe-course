@@ -8,7 +8,6 @@
     padding: 0;
 }
 
-
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -113,7 +112,6 @@
     list-style: none;
     flex-basis: 329px;
     display: flex;
-
 }
 
 .services-item:not(:nth-last-child(-n+3)) {
@@ -165,10 +163,6 @@
     background-image: url(../img/icon/IMAGE.png);
 }
 
-.section-h3 {
-    margin-top: 92px;
-}
-
 .text-section {
     color: #999999;
     font: 400 15px "Roboto";
@@ -178,7 +172,7 @@
     margin-top: 66px;
 }
 
-.cosial-link {
+.social-link {
     text-decoration: none;
 
 }
