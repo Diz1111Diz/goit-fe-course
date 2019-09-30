@@ -139,27 +139,27 @@
     background-repeat: no-repeat;
 }
 
-.alarm::before {
+.icon-alarm::before {
     background-image: url(../img/icon/ALARM.png);
 }
 
-.line-graph::before {
+.icon-line-graph::before {
     background-image: url(../img/icon/LINE_GRAPH.png);
 }
 
-.ok::before {
+.icon-ok::before {
     background-image: url(../img/icon/_OK.png);
 }
 
-.book::before {
+.icon-book::before {
     background-image: url(../img/icon/BOOK_2.png);
 }
 
-.home::before {
+.icon-home::before {
     background-image: url(../img/icon/HOME.png);
 }
 
-.image::before {
+.icon-image::before {
     background-image: url(../img/icon/IMAGE.png);
 }
 
