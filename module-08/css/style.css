@@ -1,0 +1,219 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media{
+
+
+
+
+}
+
+header{
+  background-image: url(../img/feader-img.png);
+  background-color: #1a1915;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  /* height: 100%; */
+  height: auto;  
+  text-align: center;
+}
+
+.header-site{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  
+}
+.menu-list{
+  display: flex;
+}
+.logo{
+  text-decoration: none;
+  color: #ffffff;
+  font:700 20px Montserrat;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+}
+.site-logo{
+  
+  padding-bottom: 38px;
+}
+
+.menu-item,
+.team-item{
+  list-style: none;
+}
+.site-menu{
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 115px;
+  
+}
+.menu-list{
+width: 200px;
+display: flex;
+justify-content: space-between;
+
+}
+.menu-link{
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  font:700 14px Montserrat;
+   
+  }
+.menu-item{
+  position: relative;
+}
+.menu-link:hover{
+   
+  
+}
+  
+
+.site-title{
+  color: #ffffff;
+  font:700 30px Montserrat;
+  text-transform: uppercase;
+  padding-bottom: 19px;
+}
+.site-text-title{
+  color: #ffffff;
+  font:300 18px Roboto;
+  padding-bottom: 19px;
+}
+.header-btn{
+  color: #ffffff;
+  background-color: #ff4e50;
+  border: none;   
+  margin-bottom: 138px;
+  transition: all 500ms;
+}
+
+.team{
+text-align: center;
+}
+.title-team{
+  color: #333333;
+  font:700 22px Montserrat; 
+  color: #333333;
+  padding-top: 69px;
+  padding-bottom: 33px;
+  }
+
+  .team-list{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    justify-content: space-around
+  }
+
+  .team-item{
+    position: relative;
+    width: 194px;
+    padding-bottom: 27px;
+    
+    
+  }
+  .team-img{
+    padding-bottom: 20px;
+  }
+  .icon-tv::before{
+    position: absolute;
+    /* display: block; */
+    content: '';
+    width: 40px;
+    height: 40px;
+    right: 36px;
+    top: 89px;
+      background-repeat: no-repeat;
+    background-image: url(../img/icon/tv.png);    
+  }
+  .icon-flask::before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 40px;
+    height: 40px;  
+    right: 36px;
+    top: 89px;
+        
+    background-image: url(../img/icon/flask.png);    
+  }
+  .icon-cofe::before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 40px;
+    height: 40px; 
+    right: 36px;
+    top: 89px;
+         
+    background-image: url(../img/icon/cofe.png);    
+  }
+  .icon-airplane::before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 40px;
+    height: 40px;  
+    right: 36px;
+    top: 89px;
+        
+    background-image: url(../img/icon/airplane.png);  
+  }
+  .name{
+    color: #333333;
+    font:700 14px Montserrat;
+    padding-bottom: 16px;
+  }
+  .us{
+    color: #666666;
+    font:300 14px Roboto;
+        
+  }
+  .team-btn{
+    color: #ff4e50;  
+    border: 2px solid #ff4e50;
+    background-color: #ffffff;
+    margin-bottom: 57px;
+    transition: all 500ms;
+  }
+  .btn{
+    font:700 14px Montserrat;
+    border-radius: 50px;
+    width: 280px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .team-btn:hover{
+    color: #ffffff;
+    background-color: #ff4e50;
+    border: none;
+    -webkit-box-shadow: 0px 0px 12px 5px rgba(255,78,80,0.8);
+    -moz-box-shadow: 0px 0px 12px 5px rgba(255,78,80,0.8);
+    box-shadow: 0px 0px 12px 5px rgba(255,78,80,0.8);
+  }
+  .header-btn:hover{
+    color: #ff4e50;
+    background-color:  #ffffff;
+    border: none;
+    -webkit-box-shadow: 0px 0px 12px 5px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 12px 5px rgba(255,255,255,1);
+    box-shadow: 0px 0px 12px 5px rgba(255,255,255,1);
+  }
