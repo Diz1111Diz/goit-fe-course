@@ -126,7 +126,7 @@ text-align: center;
   .team-item{
     position: relative;
     width: 194px;
-    padding-bottom: 27px;
+    margin:0 27px 27px 27px; 
     
     
   }
