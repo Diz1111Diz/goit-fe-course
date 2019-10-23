@@ -89,6 +89,12 @@ header {
 
 .team {
   text-align: center;
+ 
+}
+.center{
+  justify-content: center;
+  margin: 0 auto;
+  
 }
 
 .title-team {
@@ -102,7 +108,7 @@ header {
 
 .team-item {
   position: relative;
-  width:  194px;
+  width: 214px;
   margin-bottom: 27px;
   
 }
@@ -188,6 +194,7 @@ header {
 
 }
 
+
 .team-btn:hover {
   color: #ffffff;
   background-color: #ff4e50;
@@ -222,10 +229,9 @@ header {
   margin-bottom: 230px;
 }
   .team {
-    width: 470px;
+    min-width: 492px;
   }
 
- 
   .site-text-title br {
     display: none;
   }
