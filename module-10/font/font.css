@@ -1,0 +1,42 @@
+    
+/* montserrat */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/Montserrat/Montserrat-Bold.ttf);
+}
+
+/* Roboto */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+/* Kaushan Script */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/Kaushan_Script/KaushanScript-Regular.ttf);
+}
+
