@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+   <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="font/font.css">
    <link rel="stylesheet" href="css/style.css">
    <title>module-10</title>
@@ -12,144 +12,146 @@
 
 <body>
    <header class="header-site">
-      <nav class="menu container">
+      <nav class="header-site--menu container">
 
          <a href="#">
             <img class="logo-site" srcset="img/logo.png 86w, img/logo@2x.png 172w" sizes="86px" src="img/logo.png"
                alt="logo-site">
          </a>
 
-         <ul class="menu-list">
-            <li class="menu-item">
-               <a href="#" class="menu-item-link animation">About</a></li>
-            <li class="menu-item">
-               <a href="#" class="menu-item-link animation">service</a></li>
-            <li class="menu-item">
-               <a href="#" class="menu-item-link animation">work</a></li>
-            <li class="menu-item">
-               <a href="#" class="menu-item-link animation">blog</a></li>
-            <li class="menu-item">
-               <a href="#" class="menu-item-link animation">contact</a></li>
-            <li class="menu-item">
-               <a href="#" class="menu-item-icon animation">
-                  <svg class="icon-menu">
+         <ul class="menu--list">
+            <li class="menu--item">
+               <a href="#" class="menu--link animation">About</a></li>
+            <li class="menu--item">
+               <a href="#" class="menu--link animation">service</a></li>
+            <li class="menu--item">
+               <a href="#" class="menu--link animation">work</a></li>
+            <li class="menu--item">
+               <a href="#" class="menu--link animation">blog</a></li>
+            <li class="menu--item">
+               <a href="#" class="menu--link animation">contact</a></li>
+               
+            <li class="menu--item">
+               <a href="#" class="animation">
+                  <svg >
                      <use href="img/icon/sprite.svg#basket-icon"></use>
                   </svg>
                </a>
             </li>
-            <li class="menu-item">
-               <a href="#" class="menu-item-icon animation">
-                  <svg class="icon-menu">
+            <li class="menu--item">
+               <a href="#" class="animation">
+                  <svg >
                      <use href="img/icon/sprite.svg#search-icon"></use>
                   </svg>
                </a>
             </li>
          </ul>
       </nav>
-      <div class="title-block container">
 
-         <span class="header-subtitle">Creative Template</span>
-         <h1 class="header-title">Welcome <br> to MoGo</h1>
-         <button class="header-btn btn">Learn more</button>
+      <div class="header--wrapper container text--center">
+
+         <span class="header--wrapper--subtitle">Creative Template</span>
+         <h1 class="header--wrapper--title">Welcome <br> to MoGo</h1>
+         <button class="header--wrapper--btn btn">Learn more</button>
 
       </div>
    </header>
    <main>
 
+<!--Amazing-services-->
 
-      <section class="amazing-services container">
-         <h2 class="text-h3 text--center">We work with <span class="text-h2"><br>Amazing Services</span></h2>
+      <section class="sevices container">
+         <h2 class="services--title title text--center">We work with <span class="services--subtitle subtitle"><br>Amazing Services</span></h2>
 
-         <ul class="services-list">
+         <ul class="services--list">
 
-            <li class="services-item icon-alarm">
+            <li class="services--item icon-alarm">
 
-                  <div class="services">
-                  <h2 class="services-titles">Photography</h2>
-                  <p class="text-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+               <div class="services--item--wrapper">
+                  <h2 class="services--item--titles">Photography</h2>
+                  <p class="services--item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                      tempor.</p>
                </div>
             </li>
-            <li class="services-item icon-line-graph">
+            <li class="services--item icon-line-graph">
                      
                <div class="services">
 
-                  <h2 class="services-titles">Web Design</h2>
-                  <p class="text-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  <h2 class="services--item--titles">Web Design</h2>
+                  <p class="services--item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                      tempor.</p>
                </div>
             </li>
-            <li class="services-item icon-ok">
+            <li class="services--item icon-ok">
               
                <div class="services">
-                  <h2 class="services-titles">Creativity</h2>
-                  <p class="text-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  <h2 class="services--item--titles">Creativity</h2>
+                  <p class="services--item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                      tempor.</p>
                </div>
             </li>
-            <li class="services-item icon-book">
+            <li class="services--item icon-book">
               
                <div class="services">
-                  <h2 class="services-titles">seo</h2>
-                  <p class="text-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  <h2 class="services--item--titles">seo</h2>
+                  <p class="services--item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                      tempor.</p>
                </div>
             </li>
-            <li class="services-item icon-home">
+            <li class="services--item icon-home">
                
                <div class="services">
-                  <h2 class="services-titles">Css/Html</h2>
-                  <p class="text-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  <h2 class="services--item--titles">Css/Html</h2>
+                  <p class="services--item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                      tempor.</p>
                </div>
             </li>
-            <li class="services-item icon-image">
+            <li class="services--item icon-image">
                
                <div class="services">
-                  <h2 class="services-titles">digital</h2>
-                  <p class="text-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  <h2 class="services--item--titles">digital</h2>
+                  <p class="services--item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                      tempor.</p>
                </div>
             </li>
          </ul>
       </section>
+<!-- Meet-our-team -->
 
-      <section class="meet-our-team container">
-         <h2 class="text-h3 text--center">Who we are<span class="text-h2"><br>Meet our team</span></h2>
+      <section class="team container">
 
-         <p class="text-section">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+         <h2 class="team-title title text--center">Who we are<span class="services--subtitle  subtitle"><br>Meet our team</span></h2>
+         <p class="team--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation
             ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
-         <ul class="team-list">
-            <li class="team-item">
-               <div class="team-container">
+         <ul class="team--list">
+            <li class="team--item">
+               <div class="team--card">
 
-                  <img class="team-img" srcset="img/team1.jpg 380w, img/team1@2x.jpg 760w" sizes="380px"
-                     src="img/team1.jpg" alt="team-unit">
+                  <img class="team--card--img" srcset="img/team1.jpg 380w, img/team1@2x.jpg 760w" sizes="380px" src="img/team1.jpg" alt="team-unit">
 
-                  <div class="gradient animation"></div>
+                  <div class="team--card--gradient animation"></div>
 
-                  <div class="social-container animation">
+                  <div class="team--card--social animation">
 
-                     <a href="#" class="btn-social">
+                     <a href="#" class="team--card--btn-social">
                         <svg>
                            <use href="img/icon/sprite.svg#facebook"></use>
                         </svg>
                      </a>
                      
-
-                     <a href="#" class="btn-social">
+                     <a href="#" class="team--card--btn-social">
                         <svg>
                            <use href="img/icon/sprite.svg#twitter"></use>
                         </svg>
                      </a>
-                     <a href="#" class="btn-social">
+                     <a href="#" class="team--card--btn-social">
                         <svg>
                            <use href="img/icon/sprite.svg#pinterest"></use>
                         </svg>
                      </a>
-                     <a href="#" class="btn-social">
+                     <a href="#" class="team--card--btn-social">
                         <svg>
                            <use href="img/icon/sprite.svg#instagram"></use>
                         </svg>
@@ -157,80 +159,83 @@
                   </div>
                </div>
 
-               <h3 class="name">Matthew Dix</h3>
-               <p class="profession">Graphic Design</p>
+               <h3 class="team--card--name text--center">Matthew Dix</h3>
+               <p class="team--card--profession text--center">Graphic Design</p>
 
             </li>
 
-            <li class="team-item">
+            <li class="team--item">
 
-               <div class="team-container">
-                  <img class="team-img" srcset="img/team2.jpg 380w, img/team2@2x.jpg 760w" sizes="380px"
-                     src="img/team2.jpg" alt="team-unit">
+               <div class="team--card">
+                  <img class="team--card--img" srcset="img/team2.jpg 380w, img/team2@2x.jpg 760w" sizes="380px" src="img/team2.jpg" alt="team-unit">
 
-                  <div class="gradient"></div>
+                     <div class="team--card--gradient animation"></div>
 
-                  <div class="social-container animation">
-
-                     <a href="#" class="btn-social">
-                        <svg>
-                           <use href="img/icon/sprite.svg#facebook"></use>
-                        </svg>
-                     </a>
-                     <a href="#" class="btn-social">
-                        <svg>
-                           <use href="img/icon/sprite.svg#twitter"></use>
-                        </svg>
-                     </a>
-                     <a href="#" class="btn-social">
-                        <svg>
-                           <use href="img/icon/sprite.svg#pinterest"></use>
-                        </svg>
-                     </a>
-                     <a href="#" class="btn-social">
-                        <svg>
-                           <use href="img/icon/sprite.svg#instagram"></use>
-                        </svg>
-                     </a>
+                     <div class="team--card--social animation">
+   
+                        <a href="#" class="team--card--btn-social">
+                           <svg>
+                              <use href="img/icon/sprite.svg#facebook"></use>
+                           </svg>
+                        </a>
+                        
+                        <a href="#" class="team--card--btn-social">
+                           <svg>
+                              <use href="img/icon/sprite.svg#twitter"></use>
+                           </svg>
+                        </a>
+                        <a href="#" class="team--card--btn-social">
+                           <svg>
+                              <use href="img/icon/sprite.svg#pinterest"></use>
+                           </svg>
+                        </a>
+                        <a href="#" class="team--card--btn-social">
+                           <svg>
+                              <use href="img/icon/sprite.svg#instagram"></use>
+                           </svg>
+                        </a>
+                     </div>
                   </div>
-               </div>
-               <h3 class="name">Christopher Campbell</h3>
-               <p class="profession">Branding/UX design</p>
+   
+               <h3 class="team--card--name text--center">Christopher Campbell</h3>
+               <p class="team--card--profession text--center">Branding/UX design</p>
             </li>
-            <li class="team-item">
 
-               <div class="team-container">
-                  <img class="team-img" srcset="img/team3.jpg 380w, img/team3@2x.jpg 760w" sizes="380px"
-                     src="img/team3.jpg" alt="team-unit">
-                  <div class="gradient"></div>
+            <li class="team--item">
+               <div class="team--card">
 
-                  <div class="social-container animation">
+                  <img class="team--card--img" srcset="img/team3.jpg 380w, img/team3@2x.jpg 760w" sizes="380px" src="img/team3.jpg" alt="team-unit">
+                  
+                  <div class="team--card--gradient animation"></div>
 
-                     <a href="#" class="btn-social">
-                        <svg>
-                           <use href="img/icon/sprite.svg#facebook"></use>
-                        </svg>
-                     </a>
-                     <a href="#" class="btn-social">
-                        <svg>
-                           <use href="img/icon/sprite.svg#twitter"></use>
-                        </svg>
-                     </a>
-                     <a href="#" class="btn-social">
-                        <svg>
-                           <use href="img/icon/sprite.svg#pinterest"></use>
-                        </svg>
-                     </a>
-                     <a href="#" class="btn-social">
-                        <svg>
-                           <use href="img/icon/sprite.svg#instagram"></use>
-                        </svg>
-                     </a>
+                     <div class="team--card--social animation">
+   
+                        <a href="#" class="team--card--btn-social">
+                           <svg>
+                              <use href="img/icon/sprite.svg#facebook"></use>
+                           </svg>
+                        </a>
+                        
+                        <a href="#" class="team--card--btn-social">
+                           <svg>
+                              <use href="img/icon/sprite.svg#twitter"></use>
+                           </svg>
+                        </a>
+                        <a href="#" class="team--card--btn-social">
+                           <svg>
+                              <use href="img/icon/sprite.svg#pinterest"></use>
+                           </svg>
+                        </a>
+                        <a href="#" class="team--card--btn-social">
+                           <svg>
+                              <use href="img/icon/sprite.svg#instagram"></use>
+                           </svg>
+                        </a>
+                     </div>
                   </div>
-               </div>
-
-               <h3 class="name">Michael Fertig</h3>
-               <p class="profession">Developer</p>
+   
+               <h3 class="team--card--name text--center">Michael Fertig</h3>
+               <p class="team--card--profession text--center">Developer</p>
             </li>
          </ul>
       </section>
@@ -238,13 +243,14 @@
 
 
    <footer class="footer-site container">
-      <div class="footer-bloc">
+      <div class="footer--wrapper">
 
-         <p class="footer-text">© 2016 MoGo free PSD template by <span class="footer-p">Laaqiq</span></p>
+         <p class="footer--text">© 2016 MoGo free PSD template by <span class="footer--text--p">Laaqiq</span></p>
 
          <form class="footer-site--form">
-            <input class="mail" type="text" placeholder="Your Email..." name="text">
-            <button class="btn form--btn">Subscribe</button>
+
+            <input class="footer-site--form--mail" type="text" placeholder="Your Email..." name="text">
+            <button class="footer-site--form--btn btn">Subscribe</button>
          </form>
       </div>
    </footer>

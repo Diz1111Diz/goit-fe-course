@@ -5,9 +5,37 @@
     padding: 0;
         
 }
+
+                /* Modifier */
+
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.text--center{
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    width: 150px;
+    height: 42px;
+    color: #ffffff;
+    font: 700 14px Montserrat;
+    text-transform: uppercase;
+}
+.subtitle {
+    color: #333333;
+    font: 700 30px "Montserrat";
+    text-transform: uppercase;
+}
+
+.title {
+    color: #333333;
+    font: 400 24px 'Kaushan Script';
+    margin-top: 45px;
+    
 }
 
 /* HEADER */
@@ -17,10 +45,10 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-   
+    color: #FFFFFF;
 }
 
-.menu {
+.header-site--menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -34,7 +62,7 @@
     margin-bottom: 123px;
 }
 
-.menu-list {
+.menu--list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -45,23 +73,13 @@
         flex-basis: 622px;
 }
 
-.menu-item {
+.menu--item {
     list-style: none;
     padding: 0 10px;
 }
 
-.icon-menu {
-    display: inline-block;
-    width: 19px;
-    height: 19px;
-    fill: #FFFFFF;
-}
 
-.icon-menu:hover {
-    fill: #FCE38A;
-}
-
-.menu-item-link {
+.menu--link {
     position: relative;
     font: 500 14px 'Montserrat';
     color: #FFFFFF;
@@ -69,7 +87,7 @@
     text-transform: uppercase;
 }
 
-.menu-item-link::after {
+.menu--link::after {
     position: absolute;
     bottom: -12px;
     display: block;
@@ -83,62 +101,54 @@
     opacity: 0;
 }
 
-.menu-item-link:hover::after {
+.menu--link:hover::after {
     opacity: 1;
 }
 
-.menu-item-link:hover {
+.menu--link:hover {
     color: #FCE38A;
 }
 
-.title-block{
-    text-align: center;
+.menu--item svg {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    fill: #FFFFFF;
 }
-.header-subtitle{
-    color:#FFFFFF;
+.menu--item svg:hover {
+    fill: #FCE38A;
+}
+
+.header--wrapper--subtitle{
     font: 400 72px 'Kaushan Script';
     text-align: center;
     
 }
-.header-title{
-    color:#FFFFFF;
+.header--wrapper--title{
     font: 700 150px "Montserrat"; 
     text-transform: uppercase;
     line-height: 0.933;
     margin:40px 0 92px;
 }
-.header-btn{
+.header--wrapper--btn{
     background: none;
     border: 3px solid rgba(255, 255, 255, 1);    
     margin-bottom: 231px; 
     
 }     
-.header-btn:hover{
+.header--wrapper--btn:hover{
     -webkit-box-shadow: 0px 0px 10px 5px rgba(255,255,255,1);
     box-shadow: 0px 0px 10px 5px rgba(255,255,255,1);
-    color: #ffffff;
     background-color: #FCE38A;  
 }
 
 
-.text--center{
-    text-align: center;
-}
 
-.text-h3 {
-    color: #333333;
-    font: 400 24px 'Kaushan Script';
-    margin-top: 113px;
-    margin-bottom: 20px;
-}
+        /* <!--Amazing-services--> */
 
-.text-h2 {
-    color: #333333;
-    font: 700 30px "Montserrat";
-    text-transform: uppercase;
-}
 
-.text-h2::after {
+
+.services--subtitle::after {
     display: block;
     content: '';
     margin: 0 auto;
@@ -148,7 +158,7 @@
     margin-top: 42px;
 }
 
-.services-list {
+.services--list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -160,7 +170,7 @@
     margin-top: 66px;
 }
 
-.services-item {
+.services--item {
     position: relative;
     list-style: none;
     -ms-flex-preferred-size: 329px;
@@ -170,11 +180,11 @@
     display: flex;
 }
 
-.services-item:not(:nth-last-child(-n+3)) {
+.services--item:not(:nth-last-child(-n+3)) {
     margin-bottom: 101px;
 }
 
-.services-item::before {
+.services--item::before {
     content: '';
     display: block;
     min-width: 33px;
@@ -207,61 +217,43 @@
     background-image: url(../img/icon/image.svg);
 }
 
-.services-titles {
+.services--item--titles {
     color: #333333;
     font: 500 14px "Montserrat";
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
-.text-services {
+.services--item--text {
     color: #999999;
     font: 400 15px "Roboto";
     line-height: 24px;
 }
-.icon-services{
-    width: 33px;
-    
-}
-.services-item svg{
-    
+
+.services--item svg{
     fill: #95e1d3;
     width: 33px;
     height: 33px;   
+    
 
 }
-      
-.text-section {
+
+        /* <!-- Meet-our-team --> */
+
+.team {
+    padding-bottom: 82px;
+}
+
+.team--text {
     color: #999999;
     font: 400 15px "Roboto";
     line-height: 24px;
     text-align: center;
-    margin-bottom: 92px;
-    margin-top: 66px;
+    margin-bottom: 90px;
+    margin-top: 45px;
 }
 
-.team-item {
-    list-style: none;
-}
-
-.name {
-    color: #333333;
-    font: 500 14px 'Montserrat';
-    text-transform: uppercase;
-}
-
-.profession {
-    color: #999999;
-    font: 400 15px "Roboto";
-    line-height: 24px;
-}
-
-.name,
-.profession {
-    text-align: center;
-}
-
-.team-list {
+.team--list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -270,34 +262,33 @@
             justify-content: space-between;
 
 }
-
-.meet-our-team {
-    padding-bottom: 82px;
+.team--item {
+    list-style: none;
 }
 
-.team-container {
+.team--card {
     position: relative;
     width: 390px;
     height: 480px;
     margin-bottom: 31px;
 }
 
-.team-img {
+.team--card:hover .team--card--img {
+    top: 0;
+    left: 0;
+}
+
+.team--card:hover .team--card--social {
+    opacity: 1;
+}
+
+.team--card--img {
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
-.team-container:hover .team-img {
-    top: 0;
-    left: 0;
-}
-
-.team-container:hover .gradient {
-    opacity: 1;
-}
-
-.gradient {
+.team--card--gradient{
     position: absolute;
     width: 380px;
     height: 470px;
@@ -307,24 +298,29 @@
     background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
     -webkit-box-shadow: 10px 9px 1px 2px rgba(149, 225, 211, 1);
     box-shadow: 10px 9px 1px 2px rgba(149, 225, 211, 1);
-
     opacity: 0;
 }
-
-.team-container:hover .social-container {
+.team--card:hover .team--card--gradient {
     opacity: 1;
 }
 
-.animation,
-svg,
-.menu-item-link,
-.btn-social {
-    -webkit-transition: all 200ms linear;
-    -o-transition: all 200ms linear;
+.team--card--name {
+    color: #333333;
+    font: 500 14px 'Montserrat';
+    text-transform: uppercase;
+}
+
+.team--card--profession {
+    color: #999999;
+    font: 400 15px "Roboto";
+    line-height: 24px;
+}
+
+.animation, svg, .team--card--btn-social {
     transition: all 200ms linear;
 }
 
-.social-container {
+.team--card--social {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -341,18 +337,7 @@ svg,
     z-index: 2;
 }
 
-.social-container svg {
-    display: inline-block;
-    width: auto;
-    height: 27px;
-    fill: #F38181;
-}
-
-.social-container a:hover svg {
-    fill: #ffffff;
-}
-
-.btn-social {
+.team--card--btn-social {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -368,11 +353,25 @@ svg,
     background-color: #fce38a;
 
 }
+.team--card--social svg {
+    display: inline-block;
+    width: auto;
+    height: 27px;
+    fill: #F38181;
+}
 
-.btn-social:hover {
+.team--card--social a:hover svg {
+    fill: #ffffff;
+}
+
+
+.team--card--btn-social:hover {
     background-color: #F38181;
     border-color: #F38181;
 }
+
+
+                /* Footer */
 
 .footer-site::before {
     display: block;
@@ -382,7 +381,7 @@ svg,
     background-color: #e5e5e5;
 }
 
-.footer-bloc {
+.footer--wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -395,29 +394,22 @@ svg,
             align-items: center;
 }
 
-.footer-text {
+.footer--text {
     color: #333333;
     font: 400 14px 'Montserrat';
 }
 
-.footer-p {
+.footer--text--p {
     color: #f38181;
 }
-.btn{
-    cursor: pointer;
-    width: 150px;
-    height: 42px;
-    color: #ffffff;
-    font: 700 14px Montserrat;
-    text-transform: uppercase;
+
+.footer-site--form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
-.form--btn {
-    background-color: #95e1d3;
-    border: none;
-}
-
-.mail {
+.footer-site--form--mail {
     width: 230px;
     height: 40px;
     border: 1px solid #e7e7e7;
@@ -427,11 +419,11 @@ svg,
     line-height: 24px;
 }
 
-.footer-site--form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+.footer-site--form--btn {
+    background-color: #95e1d3;
+    border: none;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolutio: 2dppx){
     .header-site {
         background-image: url(../img/header-img@2x.jpg);   
