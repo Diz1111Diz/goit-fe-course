@@ -48,7 +48,7 @@
     color: #FFFFFF;
 }
 
-.header-site--menu {
+.header-site__menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -62,7 +62,7 @@
     margin-bottom: 123px;
 }
 
-.menu--list {
+.nav__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -73,13 +73,13 @@
         flex-basis: 622px;
 }
 
-.menu--item {
+.nav__item {
     list-style: none;
     padding: 0 10px;
 }
 
 
-.menu--link {
+.nav__link {
     position: relative;
     font: 500 14px 'Montserrat';
     color: #FFFFFF;
@@ -87,7 +87,7 @@
     text-transform: uppercase;
 }
 
-.menu--link::after {
+.nav__link::after {
     position: absolute;
     bottom: -12px;
     display: block;
@@ -101,42 +101,42 @@
     opacity: 0;
 }
 
-.menu--link:hover::after {
+.nav__link:hover::after {
     opacity: 1;
 }
 
-.menu--link:hover {
+.nav__link:hover {
     color: #FCE38A;
 }
 
-.menu--item svg {
+.nav__item svg {
     display: inline-block;
     width: 19px;
     height: 19px;
     fill: #FFFFFF;
 }
-.menu--item svg:hover {
+.nav__item svg:hover {
     fill: #FCE38A;
 }
 
-.header--wrapper--subtitle{
+.header__wrapper--subtitle{
     font: 400 72px 'Kaushan Script';
     text-align: center;
     
 }
-.header--wrapper--title{
+.header__wrapper--title{
     font: 700 150px "Montserrat"; 
     text-transform: uppercase;
     line-height: 0.933;
     margin:40px 0 92px;
 }
-.header--wrapper--btn{
+.header__wrapper--btn{
     background: none;
     border: 3px solid rgba(255, 255, 255, 1);    
     margin-bottom: 231px; 
     
 }     
-.header--wrapper--btn:hover{
+.header__wrapper--btn:hover{
     -webkit-box-shadow: 0px 0px 10px 5px rgba(255,255,255,1);
     box-shadow: 0px 0px 10px 5px rgba(255,255,255,1);
     background-color: #FCE38A;  
@@ -158,7 +158,7 @@
     margin-top: 42px;
 }
 
-.services--list {
+.services__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -170,7 +170,7 @@
     margin-top: 66px;
 }
 
-.services--item {
+.services__item {
     position: relative;
     list-style: none;
     -ms-flex-preferred-size: 329px;
@@ -180,11 +180,11 @@
     display: flex;
 }
 
-.services--item:not(:nth-last-child(-n+3)) {
+.services__item:not(:nth-last-child(-n+3)) {
     margin-bottom: 101px;
 }
 
-.services--item::before {
+.services__item::before {
     content: '';
     display: block;
     min-width: 33px;
@@ -217,20 +217,20 @@
     background-image: url(../img/icon/image.svg);
 }
 
-.services--item--titles {
+.services__item--titles {
     color: #333333;
     font: 500 14px "Montserrat";
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
-.services--item--text {
+.services__item--text {
     color: #999999;
     font: 400 15px "Roboto";
     line-height: 24px;
 }
 
-.services--item svg{
+.services__item svg{
     fill: #95e1d3;
     width: 33px;
     height: 33px;   
@@ -253,7 +253,7 @@
     margin-top: 45px;
 }
 
-.team--list {
+.team__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -262,33 +262,33 @@
             justify-content: space-between;
 
 }
-.team--item {
+.team__item {
     list-style: none;
 }
 
-.team--card {
+.team__card {
     position: relative;
     width: 390px;
     height: 480px;
     margin-bottom: 31px;
 }
 
-.team--card:hover .team--card--img {
+.team__card:hover .team__card--img {
     top: 0;
     left: 0;
 }
 
-.team--card:hover .team--card--social {
+.team__card:hover .team__card--social {
     opacity: 1;
 }
 
-.team--card--img {
+.team__card--img {
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
-.team--card--gradient{
+.team__card--gradient{
     position: absolute;
     width: 380px;
     height: 470px;
@@ -300,27 +300,27 @@
     box-shadow: 10px 9px 1px 2px rgba(149, 225, 211, 1);
     opacity: 0;
 }
-.team--card:hover .team--card--gradient {
+.team__card:hover .team__card--gradient {
     opacity: 1;
 }
 
-.team--card--name {
+.team__card--name {
     color: #333333;
     font: 500 14px 'Montserrat';
     text-transform: uppercase;
 }
 
-.team--card--profession {
+.team__card--profession {
     color: #999999;
     font: 400 15px "Roboto";
     line-height: 24px;
 }
 
-.animation, svg, .team--card--btn-social {
+.animation, svg, .team__card--btn-social {
     transition: all 200ms linear;
 }
 
-.team--card--social {
+.team__card--social {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -337,7 +337,7 @@
     z-index: 2;
 }
 
-.team--card--btn-social {
+.team__card--btn-social {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -353,19 +353,19 @@
     background-color: #fce38a;
 
 }
-.team--card--social svg {
+.team__card--social svg {
     display: inline-block;
     width: auto;
     height: 27px;
     fill: #F38181;
 }
 
-.team--card--social a:hover svg {
+.team__card--social a:hover svg {
     fill: #ffffff;
 }
 
 
-.team--card--btn-social:hover {
+.team__card--btn-social:hover {
     background-color: #F38181;
     border-color: #F38181;
 }
@@ -381,7 +381,7 @@
     background-color: #e5e5e5;
 }
 
-.footer--wrapper {
+.footer__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -403,13 +403,13 @@
     color: #f38181;
 }
 
-.footer-site--form {
+.footer-site__form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 
-.footer-site--form--mail {
+.footer-site__form--mail {
     width: 230px;
     height: 40px;
     border: 1px solid #e7e7e7;
@@ -419,7 +419,7 @@
     line-height: 24px;
 }
 
-.footer-site--form--btn {
+.footer-site__form--btn {
     background-color: #95e1d3;
     border: none;
 }
