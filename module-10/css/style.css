@@ -148,7 +148,7 @@
 
 
 
-.services--subtitle::after {
+.services__subtitle::after {
     display: block;
     content: '';
     margin: 0 auto;
@@ -193,38 +193,38 @@
     
 }
 
-.icon-alarm::before {
+.services__item--icon-alarm::before {
     background-image: url(../img/icon/alarm.svg);    
 }
 
-.icon-line-graph::before {
+.services__item--icon-line-graph::before {
     background-image: url(../img/icon/line-graph.svg);
 }
 
-.icon-ok::before {
+.services__item--icon-ok::before {
     background-image: url(../img/icon/computer-ok.svg);
 }
 
-.icon-book::before {
+.services__item--icon-book::before {
     background-image: url(../img/icon/book.svg);
 }
 
-.icon-home::before {
+.services__item--icon-home::before {
     background-image: url(../img/icon/home.svg);
 }
 
-.icon-image::before {
+.services__item--icon-image::before {
     background-image: url(../img/icon/image.svg);
 }
 
-.services__item--titles {
+.services__item-titles {
     color: #333333;
     font: 500 14px "Montserrat";
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
-.services__item--text {
+.services__item-text {
     color: #999999;
     font: 400 15px "Roboto";
     line-height: 24px;
@@ -394,12 +394,12 @@
             align-items: center;
 }
 
-.footer--text {
+.footer-text {
     color: #333333;
     font: 400 14px 'Montserrat';
 }
 
-.footer--text--p {
+.footer-text--p {
     color: #f38181;
 }
 
