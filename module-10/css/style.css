@@ -35,7 +35,8 @@
 .title {
     color: #333333;
     font: 400 24px 'Kaushan Script';
-    margin-top: 45px;
+    padding-top: 45px;
+    margin-bottom: 45px;
     
 }
 
@@ -124,13 +125,13 @@
 .header-site__subtitle{
     font: 400 72px 'Kaushan Script';
     text-align: center;
-    
+    margin-bottom: 40px;
 }
 .header-site__title{
     font: 700 150px "Montserrat"; 
     text-transform: uppercase;
     line-height: 0.933;
-    margin:40px 0 92px;
+    margin-bottom: 92px;
 }
 .header-site__btn{
     background: none;
@@ -169,7 +170,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 66px;
+    padding-top: 66px;
 }
 
 .services__item {
@@ -252,7 +253,7 @@
     line-height: 24px;
     text-align: center;
     margin-bottom: 90px;
-    margin-top: 45px;
+    
 }
 
 .team__list {
@@ -275,7 +276,7 @@
     margin-bottom: 31px;
 }
 
-.team__card:hover .team__img {
+.team__card:hover .team__card-img {
     top: 0;
     left: 0;
 }
@@ -284,7 +285,7 @@
     opacity: 1;
 }
 
-.team__img {
+.team__card-img {
     position: absolute;
     right: 0;
     bottom: 0;
