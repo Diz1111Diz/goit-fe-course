@@ -29,6 +29,7 @@
     color: #333333;
     font: 700 30px "Montserrat";
     text-transform: uppercase;
+    
 }
 
 .title {
@@ -46,9 +47,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: #FFFFFF;
+    padding-bottom: 231px; 
 }
 
-.header-site__menu {
+.header-site__nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -119,24 +121,24 @@
     fill: #FCE38A;
 }
 
-.header__wrapper--subtitle{
+.header-site__subtitle{
     font: 400 72px 'Kaushan Script';
     text-align: center;
     
 }
-.header__wrapper--title{
+.header-site__title{
     font: 700 150px "Montserrat"; 
     text-transform: uppercase;
     line-height: 0.933;
     margin:40px 0 92px;
 }
-.header__wrapper--btn{
+.header-site__btn{
     background: none;
     border: 3px solid rgba(255, 255, 255, 1);    
-    margin-bottom: 231px; 
+    
     
 }     
-.header__wrapper--btn:hover{
+.header-site__btn:hover{
     -webkit-box-shadow: 0px 0px 10px 5px rgba(255,255,255,1);
     box-shadow: 0px 0px 10px 5px rgba(255,255,255,1);
     background-color: #FCE38A;  
@@ -244,7 +246,7 @@
     padding-bottom: 82px;
 }
 
-.team--text {
+.team__text {
     color: #999999;
     font: 400 15px "Roboto";
     line-height: 24px;
@@ -273,22 +275,22 @@
     margin-bottom: 31px;
 }
 
-.team__card:hover .team__card--img {
+.team__card:hover .team__img {
     top: 0;
     left: 0;
 }
 
-.team__card:hover .team__card--social {
+.team__card:hover .team__card-link {
     opacity: 1;
 }
 
-.team__card--img {
+.team__img {
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
-.team__card--gradient{
+.team__card-gradient{
     position: absolute;
     width: 380px;
     height: 470px;
@@ -300,27 +302,27 @@
     box-shadow: 10px 9px 1px 2px rgba(149, 225, 211, 1);
     opacity: 0;
 }
-.team__card:hover .team__card--gradient {
+.team__card:hover .team__card-gradient {
     opacity: 1;
 }
 
-.team__card--name {
+.team__name {
     color: #333333;
     font: 500 14px 'Montserrat';
     text-transform: uppercase;
 }
 
-.team__card--profession {
+.team__profession {
     color: #999999;
     font: 400 15px "Roboto";
     line-height: 24px;
 }
 
-.animation, svg, .team__card--btn-social {
+.animation, svg, .card-link__btn-social {
     transition: all 200ms linear;
 }
 
-.team__card--social {
+.team__card-link {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -337,7 +339,7 @@
     z-index: 2;
 }
 
-.team__card--btn-social {
+.card-link__btn-social {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -353,19 +355,19 @@
     background-color: #fce38a;
 
 }
-.team__card--social svg {
+.team__card-link svg {
     display: inline-block;
     width: auto;
     height: 27px;
     fill: #F38181;
 }
 
-.team__card--social a:hover svg {
+.team__card-link a:hover svg {
     fill: #ffffff;
 }
 
 
-.team__card--btn-social:hover {
+.card-link__btn-social:hover {
     background-color: #F38181;
     border-color: #F38181;
 }
