@@ -76,7 +76,7 @@
     text-transform: uppercase;
   }
   &__profession {
-    color: #999999;
+    color: $team-color-text;
     font-family: $secondary-font;
     font-weight: 400;
     font-size: 15px;
@@ -85,14 +85,14 @@
 }
 
 .card-link__btn-social {
-  border: 1px solid #f38181;
+  border: 1px solid $card-btn-br;
   width: 56px;
   height: 56px;
-  background-color: #fce38a;
+  background-color: $card-btn-bg;
 
   &:hover {
-    background-color: #F38181;
-    border-color: #F38181;
+    background-color: $hover-btn-bg;
+    border-color: $hover-btn-br;
   }
 
 }

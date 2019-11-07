@@ -19,7 +19,7 @@
 }
 
 .footer-text--p {
-  color: #f38181;
+  color: $footer-color-text;
 }
 
 .footer-site__form {
@@ -36,7 +36,7 @@
     line-height: 24px;
   }
   &--btn {
-    background-color: #95e1d3;
+    background-color: $footer-color-btn;
     border: none;
   }
 }
