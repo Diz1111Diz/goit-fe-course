@@ -4,7 +4,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  src: url(../fonts/Montserrat/fonts/montserrat-bold.woff),
+  src: url(../fonts/Montserrat/montserrat-bold.woff),
   url(../fonts/Montserrat/fonts/montserrat-bold.woff2);
 }
 
@@ -14,7 +14,7 @@
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 300;
-  src: url(../fonts/Roboto/fonts/roboto-v20-latin-300.woff),
+  src: url(../fonts/Roboto/roboto-v20-latin-300.woff),
   url(../fonts/Roboto/fonts/roboto-v20-latin-300.woff2);
   
 }
