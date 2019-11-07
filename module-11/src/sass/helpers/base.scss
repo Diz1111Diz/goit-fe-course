@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit; 
+    margin: 0;
+    padding: 0;       
+}
+
+body{
+  font-family: $main-font;
+  font-size: 14px;
+}
+.text-center {
+  text-align: center;
+}
+.animation,::after, 
+svg{
+  transition: all 200ms linear;
+}

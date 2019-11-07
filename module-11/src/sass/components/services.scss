@@ -1,0 +1,62 @@
+
+.services__list {
+  flex-wrap: wrap;
+  padding-top: 66px;
+}
+
+.services__item {
+  position: relative;
+  list-style: none;
+  flex-basis: 329px;
+  display: flex;
+  &:not(:nth-last-child(-n+3)){
+  margin-bottom: 101px;
+  }
+  &::before{
+    content: '';
+    display: block;
+    min-width: 33px;
+    margin-right: 28px;
+    background-repeat: no-repeat;
+  }
+  & svg {
+    width: 33px;
+    height: 33px;
+  }
+  &--icon-alarm::before {
+    background-image: url("../images/icon-alarm.svg");
+  }
+  &--icon-line-graph::before {
+    background-image: url('../images/icon-line-graph.svg');
+  }
+  
+  &--icon-ok::before {
+    background-image: url('../images/icon-computer-ok.svg');
+  }
+  
+  &--icon-book::before {
+    background-image: url('../images/icon-book.svg');
+  }
+  
+  &--icon-home::before {
+    background-image: url('../images/icon-home.svg');
+  }
+  
+  &--icon-image::before {
+    background-image: url('../images/icon-image.svg');
+  }
+
+  &-titles {
+    color: $second-color;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  &-text {
+    color: #999999;
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}

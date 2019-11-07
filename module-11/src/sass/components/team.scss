@@ -1,0 +1,98 @@
+.team {
+  padding-bottom: 82px;
+  &__text {
+    color: #999999;
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  &__item {
+    list-style: none;
+  }
+  &__card {
+    position: relative;
+    width: 390px;
+    height: 480px;
+    margin-bottom: 31px;
+  
+    &:hover .team__card-img {
+      top: 0;
+      left: 0;
+    }
+  
+    &:hover .team__card-link {
+      opacity: 1;
+    }
+  
+    &-img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  
+    &-gradient {
+      position: absolute;
+      width: 380px;
+      height: 470px;
+      z-index: 1;
+      background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+      -webkit-box-shadow: 10px 9px 1px 2px rgba(149, 225, 211, 1);
+      -moz-box-shadow: 10px 9px 1px 2px rgba(149, 225, 211, 1);
+      box-shadow: 10px 9px 1px 2px rgba(149, 225, 211, 1);
+      opacity: 0;
+      transition: all 200ms linear;
+    }
+  
+    &:hover .team__card-gradient {
+      opacity: 1;
+    }
+  
+    &-link {
+      position: absolute;
+      width: 380px;
+      height: 470px;
+      opacity: 0;
+      z-index: 2;
+    }
+  
+    &-link svg {
+      display: inline-block;
+      width: auto;
+      height: 27px;
+      fill: #F38181;
+    }
+  
+    &-link a:hover svg {
+      fill: $primary-color;
+    }
+  
+  }
+  &__name {
+    color: $second-color;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  &__profession {
+    color: #999999;
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+.card-link__btn-social {
+  border: 1px solid #f38181;
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+
+  &:hover {
+    background-color: #F38181;
+    border-color: #F38181;
+  }
+
+}
